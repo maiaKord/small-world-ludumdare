@@ -47,6 +47,14 @@ ModelImporter:
     4300010: Icosphere.006
     4300012: Icosphere.001
     4300014: Icosphere
+    6400000: Icosphere
+    6400002: Icosphere.001
+    6400004: Icosphere.002
+    6400006: Icosphere.003
+    6400008: Icosphere.004
+    6400010: Icosphere.006
+    6400012: Icosphere.007
+    6400014: Sphere
   materials:
     importMaterials: 1
     materialName: 0
@@ -74,11 +82,11 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
-    addColliders: 0
+    meshCompression: 1
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
