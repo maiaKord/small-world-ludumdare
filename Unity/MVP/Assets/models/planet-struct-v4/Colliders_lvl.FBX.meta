@@ -1,15 +1,42 @@
 fileFormatVersion: 2
-guid: 46ca847e5b6b19c4385cccabbb652700
-timeCreated: 1492932676
+guid: f1d1b9ceafb016247bad1646304a14e7
+timeCreated: 1492969206
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Exterior1
+    100004: Exterior2
+    100006: Interior
+    100008: Paredes1
+    100010: Paredes2
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Icosphere.005
+    400002: Exterior1
+    400004: Exterior2
+    400006: Interior
+    400008: Paredes1
+    400010: Paredes2
+    2300000: Exterior1
+    2300002: Exterior2
+    2300004: Interior
+    2300006: Paredes1
+    2300008: Paredes2
+    3300000: Exterior1
+    3300002: Exterior2
+    3300004: Interior
+    3300006: Paredes1
+    3300008: Paredes2
+    4300000: Interior
+    4300002: Paredes1
+    4300004: Paredes2
+    4300006: Exterior1
+    4300008: Exterior2
+    6400000: Exterior1
+    6400002: Exterior2
+    6400004: Interior
+    6400006: Paredes1
+    6400008: Paredes2
   materials:
     importMaterials: 1
     materialName: 0
@@ -38,7 +65,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

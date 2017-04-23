@@ -18,7 +18,7 @@ public class FirstPersonController : MonoBehaviour
     
     void Awake()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         cameraTransform = Camera.main.transform;
         rigidbody = GetComponent<Rigidbody>();
@@ -30,7 +30,7 @@ public class FirstPersonController : MonoBehaviour
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * mouseSensitivityX);
         verticalLookRotation += Input.GetAxis("Mouse Y") * mouseSensitivityY;
         verticalLookRotation = Mathf.Clamp(verticalLookRotation, -60, 60);
-        cameraTransform.localEulerAngles = Vector3.left * verticalLookRotation;
+        //cameraTransform.localEulerAngles = Vector3.left * verticalLookRotation;
 
         // Calculate movement:
         float inputX = Input.GetAxisRaw("Horizontal");
