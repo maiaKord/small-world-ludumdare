@@ -1,60 +1,42 @@
 fileFormatVersion: 2
-guid: 6a8cdc193fcbc6e41a3c8590d66b5aa4
-timeCreated: 1492938317
+guid: f1d1b9ceafb016247bad1646304a14e7
+timeCreated: 1492969206
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Icosphere
-    100002: Icosphere.001
-    100004: Icosphere.002
-    100006: Icosphere.003
-    100008: Icosphere.004
-    100010: Icosphere.006
-    100012: Icosphere.007
-    100014: Sphere
-    100016: //RootNode
-    400000: Icosphere
-    400002: Icosphere.001
-    400004: Icosphere.002
-    400006: Icosphere.003
-    400008: Icosphere.004
-    400010: Icosphere.006
-    400012: Icosphere.007
-    400014: Sphere
-    400016: //RootNode
-    2300000: Icosphere
-    2300002: Icosphere.001
-    2300004: Icosphere.002
-    2300006: Icosphere.003
-    2300008: Icosphere.004
-    2300010: Icosphere.006
-    2300012: Icosphere.007
-    2300014: Sphere
-    3300000: Icosphere
-    3300002: Icosphere.001
-    3300004: Icosphere.002
-    3300006: Icosphere.003
-    3300008: Icosphere.004
-    3300010: Icosphere.006
-    3300012: Icosphere.007
-    3300014: Sphere
-    4300000: Icosphere.004
-    4300002: Icosphere.003
-    4300004: Icosphere.002
-    4300006: Sphere
-    4300008: Icosphere.007
-    4300010: Icosphere.006
-    4300012: Icosphere.001
-    4300014: Icosphere
-    6400000: Icosphere
-    6400002: Icosphere.001
-    6400004: Icosphere.002
-    6400006: Icosphere.003
-    6400008: Icosphere.004
-    6400010: Icosphere.006
-    6400012: Icosphere.007
-    6400014: Sphere
+    100000: //RootNode
+    100002: Exterior1
+    100004: Exterior2
+    100006: Interior
+    100008: Paredes1
+    100010: Paredes2
+    400000: //RootNode
+    400002: Exterior1
+    400004: Exterior2
+    400006: Interior
+    400008: Paredes1
+    400010: Paredes2
+    2300000: Exterior1
+    2300002: Exterior2
+    2300004: Interior
+    2300006: Paredes1
+    2300008: Paredes2
+    3300000: Exterior1
+    3300002: Exterior2
+    3300004: Interior
+    3300006: Paredes1
+    3300008: Paredes2
+    4300000: Interior
+    4300002: Paredes1
+    4300004: Paredes2
+    4300006: Exterior1
+    4300008: Exterior2
+    6400000: Exterior1
+    6400002: Exterior2
+    6400004: Interior
+    6400006: Paredes1
+    6400008: Paredes2
   materials:
     importMaterials: 1
     materialName: 0
@@ -82,11 +64,11 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 1
+    meshCompression: 0
     addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

@@ -22,12 +22,12 @@ GameObject:
   - component: {fileID: 114488658526334240}
   - component: {fileID: 114446328251710894}
   - component: {fileID: 54016436398192932}
-  - component: {fileID: 136621836305253862}
+  - component: {fileID: 136485376241876376}
   - component: {fileID: 23678237977902910}
   - component: {fileID: 33214379328747480}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1532377166813020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.108, y: 0.8972, z: -0.531}
+  m_LocalPosition: {x: 0.132, y: 0.722, z: -0.613}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
   - {fileID: 4889346687670586}
@@ -71,13 +71,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1968097712052028}
-  m_LocalRotation: {x: 0.2790566, y: -0.10564278, z: 0.015466431, w: 0.9543206}
-  m_LocalPosition: {x: 3.3999996, y: 6.600001, z: -12}
+  m_LocalRotation: {x: 0.43086672, y: -0.04504996, z: -0.082689494, w: 0.89748925}
+  m_LocalPosition: {x: 0.52, y: 12.25, z: -9.56}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 4713623710750208}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 32.404003, y: -13.214001, z: -1.9980001}
+  m_LocalEulerAnglesHint: {x: 49.991, y: -13.687, z: -16.933}
 --- !u!20 &20301131016751018
 Camera:
   m_ObjectHideFlags: 1
@@ -127,7 +127,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: bb2e23f6fdeb36f43b4de117cf5067cf, type: 2}
+  - {fileID: 2100000, guid: d4771b331f16fee4d8e0e2518beedc2d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivityX: 1
   mouseSensitivityY: 1
-  walkSpeed: 3
+  walkSpeed: 0.5
   jumpForce: 220
   groundedMask:
     serializedVersion: 2
@@ -218,7 +218,7 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1968097712052028}
   m_Enabled: 1
---- !u!136 &136621836305253862
+--- !u!136 &136485376241876376
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
