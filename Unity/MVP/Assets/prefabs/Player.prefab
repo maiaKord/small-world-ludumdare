@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 54016436398192932}
   - component: {fileID: 114446328251710894}
   - component: {fileID: 114488658526334240}
+  - component: {fileID: 136621836305253862}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -38,7 +39,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4551429827265288}
   - component: {fileID: 33235263980772532}
-  - component: {fileID: 136997643434026646}
   - component: {fileID: 23422169073191096}
   m_Layer: 0
   m_Name: Capsule
@@ -86,8 +86,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1532377166813020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.728, y: 2.78, z: 0.304}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 2.864, z: -0.17}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 4889346687670586}
   - {fileID: 4551429827265288}
@@ -247,12 +247,12 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1968097712052028}
   m_Enabled: 1
---- !u!136 &136997643434026646
+--- !u!136 &136621836305253862
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1908107637872156}
+  m_GameObject: {fileID: 1532377166813020}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
