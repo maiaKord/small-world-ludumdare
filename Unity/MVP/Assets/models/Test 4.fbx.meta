@@ -1,15 +1,52 @@
 fileFormatVersion: 2
-guid: 8aa753d4de9cf514fbe3c0190eec6236
-timeCreated: 1492933927
+guid: 6a8cdc193fcbc6e41a3c8590d66b5aa4
+timeCreated: 1492938317
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Icosphere.005
+    100000: Icosphere
+    100002: Icosphere.001
+    100004: Icosphere.002
+    100006: Icosphere.003
+    100008: Icosphere.004
+    100010: Icosphere.006
+    100012: Icosphere.007
+    100014: Sphere
+    100016: //RootNode
+    400000: Icosphere
+    400002: Icosphere.001
+    400004: Icosphere.002
+    400006: Icosphere.003
+    400008: Icosphere.004
+    400010: Icosphere.006
+    400012: Icosphere.007
+    400014: Sphere
+    400016: //RootNode
+    2300000: Icosphere
+    2300002: Icosphere.001
+    2300004: Icosphere.002
+    2300006: Icosphere.003
+    2300008: Icosphere.004
+    2300010: Icosphere.006
+    2300012: Icosphere.007
+    2300014: Sphere
+    3300000: Icosphere
+    3300002: Icosphere.001
+    3300004: Icosphere.002
+    3300006: Icosphere.003
+    3300008: Icosphere.004
+    3300010: Icosphere.006
+    3300012: Icosphere.007
+    3300014: Sphere
+    4300000: Icosphere.004
+    4300002: Icosphere.003
+    4300004: Icosphere.002
+    4300006: Sphere
+    4300008: Icosphere.007
+    4300010: Icosphere.006
+    4300012: Icosphere.001
+    4300014: Icosphere
   materials:
     importMaterials: 1
     materialName: 0
