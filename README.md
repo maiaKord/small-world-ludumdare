@@ -11,12 +11,14 @@ WASD or Arrow Keys to move, and Mouse to rotate the camera.
 
 Team Members:
 
-Bruno Martínez - BruReale
-Manuel Carazo - Tozy
-Maia Cordero - maiaKord
-Nicolás Lince - Linceso
-Guillermo Leal - Daft Rebel
-Hernán Gaínza - "I don't have a cool nickname"
+* Bruno Martínez - BruReale
+* Manuel Carazo - Tozy
+* Maia Cordero - maiaKord
+* Nicolás Lince - Linceso
+* Guillermo Leal - Daft Rebel
+* Hernán Gaínza - "I don't have a cool nickname"
+
+---------
 
 Music by HOME:
 https://soundcloud.com/home-2001/synchronize
